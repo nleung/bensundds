@@ -94,6 +94,10 @@ body {
   letter-spacing: -1px;
 }
 
+.featurette-centered {
+  text-align: center;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
