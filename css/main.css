@@ -7,6 +7,10 @@ body {
   color: #5a5a5a;
 }
 
+.under-navbar {
+  margin-top: 50px;
+}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -39,7 +43,6 @@ body {
 /* Carousel base class */
 .carousel {
   height: 100%;
-  margin-top: 50px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
