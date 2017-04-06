@@ -1,12 +1,13 @@
 $(function(){
-  $(".header").load("header.html");
+  $(".header").load("header.html", updateNavbar);
   $(".footer").load("footer.html");
+});
 
-  var url = window.location;
-  $('.navbar .nav').find('.active').removeClass('active');
-  $('.navbar .nav li a').each(function () {
-      if (this.href == url) {
+var updateNavbar = function() {
+  $('.nav').find('.active').removeClass('active');
+  $('.nav li a').each(function () {
+      if (this.href == window.location) {
           $(this).parent().addClass('active');
       }
   });
-});
+}
